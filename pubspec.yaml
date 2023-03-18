@@ -1,0 +1,49 @@
+name: dollor_kursi
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  dio: ^5.0.1
+  easy_localization: ^3.0.1
+  flutter_bloc: ^8.1.2
+  get_it: ^7.2.0
+  hive: ^2.2.3
+  path_provider: ^2.0.13
+  provider: ^6.0.5
+  expandable: ^5.0.1
+  shimmer: ^2.0.0
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.11.0"
+  icons_launcher: ^1.1.7
+
+  flutter_test:
+    sdk: flutter
+flutter_icons:
+  image_path: 'assets/images/dollorimg.png'
+  ios: true
+  android: true
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/tr/
+    - assets/images/
+
